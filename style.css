@@ -14,8 +14,16 @@ body {
 	--icon-color: #6a737d;
 	--border-color: #ff9a0045;
 	--text-decoration-color: #ff9a00;
+
 	--location-icon-color: #e74c3c;
 	--linkedin-icon-color: #0077b5;
+	--html-icon-color: #e34c26;
+	--css-icon-color: #264de4;
+	--sass-icon-color: #cc6699;
+	--js-icon-color: #f0db4f;
+	--react-icon-color: #61dbfb;
+	--npm-icon-color: #cb3837;
+	--github-icon-color: #000;
 }
 
 .container {
@@ -150,41 +158,44 @@ body {
 	border-color: var(--text-decoration-color);
 }
 
-.intro {
-	display: flex;
-	justify-content: start;
-}
-
-.intro__icon-wrapper {
-	margin-right: 30px;
-	width: 30px;
-	display: flex;
-	justify-content: center;
-}
-
-.intro__icon {
-	height: 1.1428rem;
-	vertical-align: text-bottom;
-}
-
-.intro__icon path {
-	fill: var(--text-decoration-color);
-}
-
-.intro_text {
-	color: var(--secondary-text-color);
-	text-align: justify;
-}
-
 .skills__header {
 	color: var(--secondary-text-color);
 	text-align: center;
-	margin-bottom: 15px;
+	margin-bottom: 35px;
 }
 
 .skills__text {
 	color: var(--secondary-text-color);
 	text-align: justify;
+}
+
+.skills__list {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	text-align: center;
+}
+
+.html-logo {
+	color: var(--html-icon-color);
+}
+.css-logo {
+	color: var(--css-icon-color);
+}
+.sass-logo {
+	color: var(--sass-icon-color);
+}
+.js-logo {
+	color: var(--js-icon-color);
+}
+.react-logo {
+	color: var(--react-icon-color);
+}
+.npm-logo {
+	color: var(--npm-icon-color);
+}
+.github-logo {
+	color: var(--github-icon-color);
 }
 
 .experiences {
